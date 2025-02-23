@@ -3,8 +3,8 @@ name: Build and Release on Commit
 on:
   push:
     tags:
-      - '*'  # Trigger the workflow on all tags
-
+      - '*'
+      
 jobs:
   prepare:
     name: Prepare for Build and Release
