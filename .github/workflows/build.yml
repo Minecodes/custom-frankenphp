@@ -84,7 +84,7 @@ jobs:
     - name: Set up Docker container with Arch Linux
       run: |
         cd ${{ github.workspace }}
-        bash build.sh
+        sudo bash build.sh
 
     - name: Upload build artifact to release
       env:
