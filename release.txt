@@ -1,1 +1,4 @@
-Example build (work in progress)
+How to build:
+1. chmod +x build.sh
+2. sudo ./build.sh
+3. sudo cp dist/caddy /usr/bin/
